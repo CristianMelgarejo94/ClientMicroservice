@@ -1,14 +1,14 @@
 # Ejercicio Práctico Java, Spring Framework, Spring Boot y microservicios
 ## Proposito 🚀
-_Con el propósito de poner en práctica y validar los conceptos adquiridos de la capacitación Java, Spring Framework, Spring Boot y microservicios. Se propuso un problema a manera de prueba de concepto (PoC), para construir un API Restful que expongan como mínimo las operaciones CRUD de una tabla de base de datos llamada CLIENTE._
+Con el propósito de poner en práctica y validar los conceptos adquiridos de la capacitación Java, Spring Framework, Spring Boot y microservicios. Se propuso un problema a manera de prueba de concepto (PoC), para construir un API Restful que expongan como mínimo las operaciones CRUD de una tabla de base de datos llamada CLIENTE.
 
-_Cada operación se encuentra especificada como un servicio Restful en el controlador del microservicio desarrollado como proyecto **Spring Boot**. La información básica del cliente se almacenará en una base de datos relacional (MySQL) y su respectiva foto en una base de datos no relacional (Mongodb) donde se identificara con el numero de documento como campo único del registro._
+Cada operación se encuentra especificada como un servicio Restful en el controlador del microservicio desarrollado como proyecto **Spring Boot**. La información básica del cliente se almacenará en una base de datos relacional (MySQL) y su respectiva foto en una base de datos no relacional (Mongodb) donde se identificara con el numero de documento como campo único del registro.
 >Proximamente: Todos los servicios deben permitir Cross Domain o el consumo de recursos
 >              desde un dominio diferente para que la aplicación web ya existente los pueda consumir
 
 ## Propiedades del proyecto ⚙️
 
-_Dentro del proyecto se encuentra el archivo **aplication.properties**, en el se encuentran las configuraciones basicas de este mismo, si deseas puedes cambiar el puerto en el que se despliega el servidor, cambiar el nombre de la base de datos, la url de la base de datos, etc... Es importante que modifiques estos valores de acuerdo a tu entorno de trabajo, esto con el fin de que no tengas inconvenientes al momento de ejecutarlo._
+Dentro del proyecto se encuentra el archivo **aplication.properties**, en el se encuentran las configuraciones basicas de este mismo, si deseas puedes cambiar el puerto en el que se despliega el servidor, cambiar el nombre de la base de datos, la url de la base de datos, etc... Es importante que modifiques estos valores de acuerdo a tu entorno de trabajo, esto con el fin de que no tengas inconvenientes al momento de ejecutarlo.
 
 ## EN CONSTRUCCIÓN 🛠️
 El siguiente proyecto se encuentra en proceso de construcción, pero se pueden realizar las operaciones CRUD de la tabla cliente para almacenar los siguientes datos:
