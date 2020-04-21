@@ -35,6 +35,18 @@ localhost:8080/client
 GET localhost:8080/client
 ```
 
+**GET** - Para obtener un cliente especifico de la base de datos:
+```
+GET localhost:8080/client/find
+
+Se debe de enviar en el body del request la siguiente estructura en formato JSON:
+
+{
+	"documentNumber":1234567890,
+	"typeDoc":"Cedula"	
+}
+
+
 **POST** - Para crear un cliente:
 ```
 POST localhost:8080/client
